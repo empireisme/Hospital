@@ -22,7 +22,7 @@ public class Patient {
 			Queue normalQueue=hospital.getNormalQueue();
 			normalQueue.add( this);
 			this.setFirstCheckInOnline(false);
-			System.out.println(" this is your first time to checkinonline");
+			System.out.println(this.name+" this is your first time to checkinonline");
 		}else {
 			System.out.println("you have already checked in online");
 		}
